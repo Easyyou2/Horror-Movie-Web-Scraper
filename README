@@ -1,0 +1,32 @@
+Data Harvesting Decoded: A Beginner's Guide on Web Scraping in R
+Introduction
+This guide introduces the exciting world of web scraping using R, aiming to empower you with the ability to harness a wealth of data available on the internet. Web scraping is a technique used to extract data from websites automatically. It's an essential skill for data science, enabling the collection and analysis of large datasets from the web. This project focuses on scraping the top 200 horror movies from Rotten Tomatoes, extracting valuable information like names, ratings, years, and lengths of the movies.
+
+Getting Started
+Prerequisites
+R and RStudio Installation: Before diving into web scraping, ensure you have R and RStudio installed. You can download R from the SFU directory and RStudio from the RStudio download page.
+Required Packages: Install the Tidyverse and Rvest packages using RStudio's 
+package manager or through the console with the command: install.packages(c("tidyverse", "rvest"), dependencies=TRUE).
+Load Packages
+
+
+
+Web Scraping with Rvest and Tidyverse
+Understanding the Basics
+Tidyverse is a collection of R packages designed for data science, making it easier to import, tidy, transform, visualize, and model data.
+Rvest simplifies the web scraping process, allowing for easy navigation, extraction, and handling of web data.
+The Web Scraping Process
+Identify the Data: Determine the data you want to extract. In this case, we're interested in the top 200 horror movies listed on Rotten Tomatoes.
+Read the Web Page: Use rvest to read the HTML content of the page.
+Extract Data: Identify and extract the elements of interest (e.g., movie titles, ratings) using CSS selectors.
+Organize Data: Store the extracted data in a structured format, such as a dataframe.
+Clean and Analyze: Process the data (e.g., removing special characters, converting data types) for analysis.
+Practical Example
+This repository contains an R script that demonstrates the process of scraping the top 200 horror movies from Rotten Tomatoes. The script covers the entire process from setting up R and RStudio, identifying and extracting data, to organizing the data into a dataframe for further analysis.
+
+Conclusion
+Web scraping with R opens up endless possibilities for data collection and analysis. This beginner's guide aims to get you started on your journey to uncovering the vast data available on the web.
+
+References
+Best Horror Movies of All Time - Rotten Tomatoes
+Rvest Package
