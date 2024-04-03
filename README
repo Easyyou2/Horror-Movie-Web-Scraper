@@ -9,13 +9,13 @@ Required Packages: Install the Tidyverse and Rvest packages using RStudio's
 package manager or through the console with the command: install.packages(c("tidyverse", "rvest"), dependencies=TRUE).
 Load Packages
 
-
-
 Web Scraping with Rvest and Tidyverse
-Understanding the Basics
+
 Tidyverse is a collection of R packages designed for data science, making it easier to import, tidy, transform, visualize, and model data.
 Rvest simplifies the web scraping process, allowing for easy navigation, extraction, and handling of web data.
+
 The Web Scraping Process
+
 Identify the Data: Determine the data you want to extract. In this case, we're interested in the top 200 horror movies listed on Rotten Tomatoes.
 Read the Web Page: Use rvest to read the HTML content of the page.
 Extract Data: Identify and extract the elements of interest (e.g., movie titles, ratings) using CSS selectors.
